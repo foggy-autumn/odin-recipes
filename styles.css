@@ -32,12 +32,10 @@ h1 {
     padding: 0 0 15px 0;
 }
 
-[id="navigation"] li {
+#navigation li {
     display: inline;
     padding: 0 15px 0 0;
-    font-size: 9px;
-    text-transform: uppercase;
-    letter-spacing: 0.75px;
+
 }
 
 a {
@@ -46,9 +44,52 @@ a {
     border: #F8F6F4 1px solid;
     text-decoration: none;
     color: #86acac;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
 }
 
 a:hover {
     background: skyblue;
     color: white;
+}
+
+.page {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.img-box {
+    width: 40%;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    width: 40%;
+    padding: 20px 20px 50px 20px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 0 15px 0;
+}
+
+li {
+    padding: 5px 0px 20px 5px;
+    margin-left: 13px;
+}
+
+ul {
+    margin-left: 50px;
+}
+
+.source {
+    padding: 20px 0;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
